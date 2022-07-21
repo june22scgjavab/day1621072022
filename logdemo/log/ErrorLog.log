@@ -1,0 +1,3 @@
+21-Jul-2022 11:51:42 INFO ------ I am in main
+21-Jul-2022 11:51:42 ERROR ------ I am the error
+21-Jul-2022 11:51:42 DEBUG ------ I am the debug

@@ -1,0 +1,71 @@
+* data types
+   * primitive data types ===> 8 primitive types
+   * F/f float value and L/l===> long values
+     float avg=10.0;  ===> 10.0 double value 
+     float avg=10.0f/F; 
+     float avg=10; //10 int and int can be stored easily in float
+
+     long l=10;  10 is being treated as int value
+     long l=14657770010;  14657770010 int value // compilation error
+     long l=14657770010L;
+---------------------------------------------------------------------------------------------------
+Programming constructs:-
+   * Condition check 
+   switch(expression) {}  char,byte,short,int,String,enum
+   * Iterations 
+---------------------------------------------------------------------------------------
+Arrays [] ( You need not to practice now ) 
+
+Arrays.asList(array);
+
+class and object
+* Encapsulation
+* Inheritance ===> constructor calls , multiple inheritance not allowed
+* polymorphism ===> overloading and overriding
+* abstraction======> abstract classes and interface 
+-----------------------------------------------------------------------------------------------
+Wrapper classes 
+   parseInt
+   parseFloat
+   parseLong=====>   1003000555L. 16 digits ====>         String strIMENo=Long.parseLong(IMENo);
+                                                          if(strIMENo.length()==16)
+
+Character.isDigit('a');
+---------------------------------------------------------------------------------------------------------
+String class
+--------------------------------------------------------------------------------------------------
+Exception handling=====> flow ======> User Defined Exception
+---------------------------------------------------------------------------------------------
+Collection ====> Set . List . Map
+add, update, delete. display ====> CRUD =======> Create(Insert), Read, Update, Delete
+-------------------------------------------------------------------------------------------------------
+final,static,abstract,access modifiers
+-----------------------------------------------------------------------------------
+Regular expression........
+---------------------------------------------------------------------------------------------
+Junit Testing .........
+-------------------------------------------------------------------------------------
+Properties file ......................
+-----------------------------------------------------------------------------------
+Logger.............................
+------------------------------------------------------------------------------------------
+Flow of the code ....
+
+                     Model Object/TO (Transfer Object)            Model Object/TO ( Transfer Object)
+UserInterface/Tester==================================> Service=============================> DAO ( Collection related object )
+------------------------------------------------------------------------------------------------------------------------------
+* Create a java project.
+* Include the jar file required. Done.
+* Write a class 
+
+
+
+
+
+
+
+
+                                                         
+
+
+
