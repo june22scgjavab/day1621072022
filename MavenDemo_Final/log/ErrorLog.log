@@ -1,8 +1,8 @@
-15-May-2020 14:15:23 ERROR - Validator.INVALID_EMPLOYEE_NAME
+21-Jul-2022 15:05:11 ERROR - Validator.INVALID_EMPLOYEE_NAME
 java.lang.Exception: Validator.INVALID_EMPLOYEE_NAME
-	at com.infy.validator.Validator.validate(Validator.java:12) [classes/:?]
-	at com.infy.userinterface.Tester.main(Tester.java:13) [classes/:?]
-06-Jan-2022 15:05:53 ERROR - Validator.INVALID_EMPLOYEE_NAME
+	at com.infy.validator.Validator.validate(Validator.java:13) [classes/:?]
+	at com.infy.userinterface.Tester.main(Tester.java:17) [classes/:?]
+21-Jul-2022 15:10:47 ERROR - The entered employee name is invalid.
 java.lang.Exception: Validator.INVALID_EMPLOYEE_NAME
-	at com.infy.validator.Validator.validate(Validator.java:12) [classes/:?]
-	at com.infy.userinterface.Tester.main(Tester.java:13) [classes/:?]
+	at com.infy.validator.Validator.validate(Validator.java:13) [classes/:?]
+	at com.infy.userinterface.Tester.main(Tester.java:17) [classes/:?]

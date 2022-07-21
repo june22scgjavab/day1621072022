@@ -9,12 +9,16 @@ public class Tester {
 
 	public static void main(String[] args) throws Exception{		
 		try {
-			Employee employee = new Employee("Jon", 1234);
-			new Validator().validate(employee);
+			Employee employee = new Employee("", 1234);
+			
+			// new Validator().validate(employee);
+			Validator validator=new Validator();
+			
+					validator.validate(employee);
 			System.out.println("The employee details are successfully validated.");
 		} 
 		catch (Exception exception) {
-			System.out.println(new Configurations().properties("configuration.properties").getProperty(exception.getMessage()));
+			System.out.println(new Configurations().properties("configuration.properties").getProperty("Validator.INVALID_EMPLOYEE_NAME"));
 		}
 	}
 }
