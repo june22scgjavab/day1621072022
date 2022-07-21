@@ -58,11 +58,52 @@ UserInterface/Tester==================================> Service=================
 * Include the jar file required. Done.
 * Write a class 
 
+Class getClass() is a method of Object class
+
+public class Tester {
+  
+   public static void main(String args[]){
+    Tester tester=new Tester();
+    Class class=tester.getClass();
+    System.out.println(class.getName());     // Tester
+   }
+}  
+
+
+public class CandidateServiceImpl implements CandidateService
+{
+
+private Log logger=LogFactory.getLog(CandidateServiceImpl.class);
+private Log logger=LogFactory.getLog(this.getClass());
 
 
 
+public String addCandidate(Candidate candidate) throws Exception {
+	try {
+		char tempResult = 'P';
+		if (candidate.getMark1() < 50 || candidate.getMark2() < 50 || candidate.getMark3() < 50) {
+			tempResult = 'F';
+		}
+		if (candidate.getResult() != tempResult) {
+			throw new Exception("Service.INVALID_RESULT");
+		}
+		return "Success";
+	} catch (Exception exception) {
+		if (exception.getMessage().contains("Service")) {
+		      //logger.error();	
+                    LogFactory.getLog(this.getClass()).error(exception.getMessage(), exception);
+		}
+		throw exception;
+	}
+}
 
+==================================================================================================================================
+File====>New=======>Others===========>Maven=====>Maven Project
+We have to select the checkbox for creating simple maven project.
 
+Group Id
+Artifact id
+Packaging
 
 
                                                          
